@@ -1,0 +1,73 @@
+<html>
+<style>
+.head{
+left:2%;
+}
+.startbutton{
+width:20%;height:15%;
+border-radius:100px;outline:none;
+position:relative;
+left:60%;bottom:25%;
+cursor:pointer;
+background:transparent;
+font-family:courier;font-size:18px;
+transition:height 1s,width 1s,background 1s;
+animation:change 4s infinite;
+}
+.startbutton:hover{
+height:85px;width:230px;
+background:aquamarine;
+}
+@media screen and (max-width: 600px) {
+  .startbutton {
+    font-size: 15px;
+    bottom:0%;left:20%;
+    width:50%;height:10%;
+    margin-bottom:5%;
+    animation:none;
+  }
+}
+.joinbutton{
+position:relative;
+margin-top:2%;
+border-radius:100px;outline:none;
+width:200px;height:80px;
+cursor:pointer;
+background:transparent;
+font-family:courier;font-size:18px;
+color:black;
+transition:background 1s;
+}
+.joinbutton:hover{
+background:aquamarine;
+}
+@keyframes change {
+0%   {bottom: 26%;}
+20%  {bottom: 25%;}
+40%  {bottom: 26%;}
+60%  {bottom: 25%;}
+80%  {bottom: 26%;}
+90%  {bottom: 25%;}
+100% {bottom: 26%;}
+}
+</style>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reoren Home</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<header class="header">Reoren</header>
+</head>
+<body>
+<h1 class="head" style=margin-top:10%;> We have everything <br> worth reading </h1>
+<a href="reoren menu.html"><button class="startbutton">Start Exploring</button></a>
+<center>
+<hr class="line">
+<p class="para" style=margin-top:5%;> <br> Reoren is a reading platform <br> where you get hundreds of stories, poems, <br> documentaries and books to read.</p>
+<hr class="line"> <br></p>
+<a href="http://www.google.com"><button class="joinbutton">Join Us</button></a>
+<footer class="footer"></footer>
+</center>
+</body>
+</html>
